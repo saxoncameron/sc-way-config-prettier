@@ -6,17 +6,6 @@ An importable, installable [Prettier](https://prettier.io/) config based on the 
 
 ℹ️ Note: this includes an [`.editorconfig`](https://editorconfig.org/) under the hood as well.
 
-## TOC
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Install](#install)
-- [Extending the config](#extending-the-config)
-- [On differences between Prettier and `.editorconfig`](#on-differences-between-prettier-and-editorconfig)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Install
 
 1. First install the config package:
@@ -36,7 +25,7 @@ yarn --dev @sc-way/config-prettier
 - or if you prefer to keep it in a separate config file: `.prettierrc.js`
 	- `module.exports = require("@sc-way/config-prettier");`
 
-## Extending the config
+## Extend
 
 To extend/override this config, import it into `.prettierrc.js` like so:
 
@@ -48,7 +37,7 @@ module.exports = {
 
 ```
 
-## On differences between Prettier and `.editorconfig`
+## Prettier and EditorConfig?
 
 > EditorConfig's role is to configure your editor so that the code you write is already formatted while Prettier will format your already written code. This allows EditorConfig to be used in many more languages and projects than Prettier.
 
