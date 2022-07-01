@@ -1,0 +1,15 @@
+{
+  "name": "@sc-way/config-prettier",
+  "version": "1.0.0",
+  "description": "Prettier config preferences of @saxoncameron.",
+  "main": ".prettierrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saxoncameron/sc-way-config-prettier.git"
+  },
+  "author": "@saxoncameron",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
