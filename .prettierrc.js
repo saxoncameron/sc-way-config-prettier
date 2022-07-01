@@ -1,4 +1,7 @@
 module.exports = {
+	// Reference/convert `.editoconfig` file
+	editorconfig: true,
+
 	// Note tab width purposefully not configured,
 	// to allow developer preference in their IDE
 	useTabs: true,
